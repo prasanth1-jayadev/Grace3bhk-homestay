@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFF5D6"/>
+            <stop offset="35%" stop-color="#E5C778"/>
+            <stop offset="70%" stop-color="#D4AF37"/>
+            <stop offset="100%" stop-color="#9C7708"/>
+        </linearGradient>
+    </defs>
+    <!-- Outer delicate Laurel Wreath & Circle -->
+    <circle cx="50" cy="46" r="23" stroke="url(#goldGlow)" stroke-width="2" fill="none"/>
+    <!-- Capital 'G' in elegant serif -->
+    <text x="50" y="55" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="700" text-anchor="middle" fill="url(#goldGlow)">G</text>
+    
+    <!-- Left Laurel Wreath Branch -->
+    <path d="M 50 72 C 34 71 20 58 20 44 C 20 33 27 24 35 18" stroke="url(#goldGlow)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Left Leaves -->
+    <path d="M 23 58 C 17 56 16 50 21 47 C 24 50 25 55 23 58 Z" fill="url(#goldGlow)"/>
+    <path d="M 20 48 C 14 46 14 39 19 37 C 22 40 23 45 20 48 Z" fill="url(#goldGlow)"/>
+    <path d="M 22 38 C 17 35 18 29 23 27 C 25 31 25 36 22 38 Z" fill="url(#goldGlow)"/>
+    <path d="M 28 29 C 24 25 26 19 32 19 C 33 23 32 28 28 29 Z" fill="url(#goldGlow)"/>
+    <path d="M 36 21 C 33 16 38 12 43 13 C 43 17 40 21 36 21 Z" fill="url(#goldGlow)"/>
+
+    <!-- Right Laurel Wreath Branch -->
+    <path d="M 50 72 C 66 71 80 58 80 44 C 80 33 73 24 65 18" stroke="url(#goldGlow)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Right Leaves -->
+    <path d="M 77 58 C 83 56 84 50 79 47 C 76 50 75 55 77 58 Z" fill="url(#goldGlow)"/>
+    <path d="M 80 48 C 86 46 86 39 81 37 C 78 40 77 45 80 48 Z" fill="url(#goldGlow)"/>
+    <path d="M 78 38 C 83 35 82 29 77 27 C 75 31 75 36 78 38 Z" fill="url(#goldGlow)"/>
+    <path d="M 72 29 C 76 25 74 19 68 19 C 67 23 68 28 72 29 Z" fill="url(#goldGlow)"/>
+    <path d="M 64 21 C 67 16 62 12 57 13 C 57 17 60 21 64 21 Z" fill="url(#goldGlow)"/>
+
+    <!-- Bottom Ribbon / Flourishes -->
+    <path d="M 38 75 C 44 73 48 76 50 79 C 52 76 56 73 62 75 C 67 76 68 81 64 83 C 59 84 55 80 50 83 C 45 80 41 84 36 83 C 32 81 33 76 38 75 Z" fill="url(#goldGlow)"/>
+    <circle cx="50" cy="73" r="2.2" fill="url(#goldGlow)"/>
+</svg>

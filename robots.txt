@@ -1,0 +1,11 @@
+# robots.txt for Grace 3BHK Homestay
+# ==============================================================================
+# PRODUCTION DEPLOYMENT NOTICE:
+# Before publishing to AWS S3 / CloudFront, update the Sitemap URL below:
+# Replace 'https://YOUR_DOMAIN_HERE/' with your live domain (e.g. 'https://yourdomain.com/')
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR_DOMAIN_HERE/sitemap.xml

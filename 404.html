@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Page Not Found | Grace 3BHK Homestay</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/svg+xml" href="public/images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: radial-gradient(circle at center, #151515 0%, #0B0B0B 100%);
+        }
+
+        .error-card {
+            max-width: 540px;
+            padding: 3.5rem 2.5rem;
+            background: rgba(22, 22, 22, 0.75);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 28px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+        }
+
+        .error-code {
+            font-family: var(--font-serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .error-title {
+            font-size: 1.8rem;
+            color: var(--text-main-dark);
+            margin-bottom: 1rem;
+        }
+
+        .error-desc {
+            color: var(--text-sec-dark);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-page">
+        <div class="error-card">
+            <div class="brand-crest" style="margin-bottom: 1.5rem;">
+                <img src="public/images/logo.svg" alt="Grace Crest" width="56" height="56"
+                    style="filter: drop-shadow(0 2px 10px rgba(212, 175, 55, 0.45));">
+            </div>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-desc">The page you are looking for doesn't exist or has moved. Return to our homepage to explore our 3BHK homestay in Fort Kochi.</p>
+            <a href="index.html" class="btn btn-primary">Return to Homepage</a>
+        </div>
+    </div>
+</body>
+
+</html>
